@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/emerson.monteiro/OneDrive/Faculdade/3º Semestre/sistemas digitais/semaforo_contador/semaforo_contador.bdf
+design_name = hard_block
+design_name = semaforo_contador
+instance = comp, \SA1~output\, SA1~output, semaforo_contador, 1
+instance = comp, \SA2~output\, SA2~output, semaforo_contador, 1
+instance = comp, \SA3~output\, SA3~output, semaforo_contador, 1
+instance = comp, \SB1~output\, SB1~output, semaforo_contador, 1
+instance = comp, \SB2~output\, SB2~output, semaforo_contador, 1
+instance = comp, \SB3~output\, SB3~output, semaforo_contador, 1
+instance = comp, \clock19~input\, clock19~input, semaforo_contador, 1
+instance = comp, \inst15~0\, inst15~0, semaforo_contador, 1
+instance = comp, \inst15~feeder\, inst15~feeder, semaforo_contador, 1
+instance = comp, \inst16~0\, inst16~0, semaforo_contador, 1
+instance = comp, \inst3~0\, inst3~0, semaforo_contador, 1
+instance = comp, \inst3~1\, inst3~1, semaforo_contador, 1
+instance = comp, \inst3~2\, inst3~2, semaforo_contador, 1
