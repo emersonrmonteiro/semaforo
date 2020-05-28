@@ -1,5 +1,5 @@
 Analysis & Synthesis report for semaforo_contador
-Tue Apr 07 20:06:56 2020
+Wed May 27 21:57:29 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Apr 07 20:06:56 2020       ;
+; Analysis & Synthesis Status        ; Successful - Wed May 27 21:57:29 2020       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; semaforo_contador                           ;
 ; Top-level Entity Name              ; semaforo_contador                           ;
@@ -151,26 +151,25 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 4           ;
+; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.0%      ;
-;     Processors 3-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                       ;
-+----------------------------------+-----------------+------------------------------------------+--------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                                                       ; Library ;
-+----------------------------------+-----------------+------------------------------------------+--------------------------------------------------------------------------------------------------------------------+---------+
-; semaforo_contador.bdf            ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/emerson.monteiro/OneDrive/Faculdade/3º Semestre/sistemas digitais/semaforo_contador/semaforo_contador.bdf ;         ;
-+----------------------------------+-----------------+------------------------------------------+--------------------------------------------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                    ;
++----------------------------------+-----------------+------------------------------------------+-------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                    ; Library ;
++----------------------------------+-----------------+------------------------------------------+-------------------------------------------------+---------+
+; semaforo_contador.bdf            ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/fpga/semaforo/semaforo/semaforo_contador.bdf ;         ;
++----------------------------------+-----------------+------------------------------------------+-------------------------------------------------+---------+
 
 
 +------------------------------------------------------+
@@ -263,10 +262,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Tue Apr 07 20:06:40 2020
+    Info: Processing started: Wed May 27 21:57:13 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off semaforo_contador -c semaforo_contador
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file semaforo_contador_conceito.bdf
+    Info (12023): Found entity 1: semaforo_contador_conceito
+Info (12021): Found 2 design units, including 1 entities, in source file contador.vhd
+    Info (12022): Found design unit 1: contador-comportamento File: C:/fpga/semaforo/semaforo/contador.vhd Line: 12
+    Info (12023): Found entity 1: contador File: C:/fpga/semaforo/semaforo/contador.vhd Line: 5
 Warning (12125): Using design file semaforo_contador.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: semaforo_contador
 Info (12127): Elaborating entity "semaforo_contador" for the top level hierarchy
@@ -278,9 +282,9 @@ Info (21057): Implemented 13 device resources after synthesis - the final resour
     Info (21059): Implemented 6 output pins
     Info (21061): Implemented 6 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4785 megabytes
-    Info: Processing ended: Tue Apr 07 20:06:56 2020
+    Info: Peak virtual memory: 4793 megabytes
+    Info: Processing ended: Wed May 27 21:57:29 2020
     Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:39
+    Info: Total CPU time (on all processors): 00:00:32
 
 

@@ -1,5 +1,13 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/emerson.monteiro/OneDrive/Faculdade/3º Semestre/sistemas digitais/semaforo_contador/semaforo_contador.bdf
+source_file = 1, C:/fpga/semaforo/semaforo/Waveform.vwf
+source_file = 1, C:/fpga/semaforo/semaforo/semaforo_contador_conceito.bdf
+source_file = 1, C:/fpga/semaforo/semaforo/contador.vhd
+source_file = 1, C:/fpga/semaforo/semaforo/Waveform1.vwf
+source_file = 1, c:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/fpga/semaforo/semaforo/semaforo_contador.bdf
 design_name = hard_block
 design_name = semaforo_contador
 instance = comp, \SA1~output\, SA1~output, semaforo_contador, 1

@@ -1,5 +1,5 @@
 EDA Netlist Writer report for semaforo_contador
-Tue Apr 07 20:26:50 2020
+Wed May 27 22:04:10 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Tue Apr 07 20:26:50 2020 ;
+; EDA Netlist Writer Status ; Successful - Wed May 27 22:04:10 2020 ;
 ; Revision Name             ; semaforo_contador                     ;
 ; Top-level Entity Name     ; semaforo_contador                     ;
 ; Family                    ; Cyclone IV E                          ;
@@ -45,34 +45,34 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------+---------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------+
-; Simulation Settings                                                                                                           ;
-+---------------------------------------------------------------------------------------------------+---------------------------+
-; Option                                                                                            ; Setting                   ;
-+---------------------------------------------------------------------------------------------------+---------------------------+
-; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
-; Generate functional simulation netlist                                                            ; On                        ;
-; Truncate long hierarchy paths                                                                     ; Off                       ;
-; Map illegal HDL characters                                                                        ; Off                       ;
-; Flatten buses into individual nodes                                                               ; Off                       ;
-; Maintain hierarchy                                                                                ; Off                       ;
-; Bring out device-wide set/reset signals as ports                                                  ; Off                       ;
-; Enable glitch filtering                                                                           ; Off                       ;
-; Do not write top level VHDL entity                                                                ; Off                       ;
-; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                       ;
-; Architecture name in VHDL output netlist                                                          ; structure                 ;
-; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                       ;
-; Generate third-party EDA tool command script for gate-level simulation                            ; Off                       ;
-+---------------------------------------------------------------------------------------------------+---------------------------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                        ;
++---------------------------------------------------------------------------------------------------+------------------------+
+; Option                                                                                            ; Setting                ;
++---------------------------------------------------------------------------------------------------+------------------------+
+; Tool Name                                                                                         ; ModelSim-Altera (VHDL) ;
+; Generate functional simulation netlist                                                            ; On                     ;
+; Truncate long hierarchy paths                                                                     ; Off                    ;
+; Map illegal HDL characters                                                                        ; Off                    ;
+; Flatten buses into individual nodes                                                               ; Off                    ;
+; Maintain hierarchy                                                                                ; Off                    ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off                    ;
+; Enable glitch filtering                                                                           ; Off                    ;
+; Do not write top level VHDL entity                                                                ; Off                    ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                    ;
+; Architecture name in VHDL output netlist                                                          ; structure              ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                    ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off                    ;
++---------------------------------------------------------------------------------------------------+------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                                                         ;
-+------------------------------------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                                                    ;
-+------------------------------------------------------------------------------------------------------------------------------------+
-; C:/Users/emerson.monteiro/OneDrive/Faculdade/3º Semestre/sistemas digitais/semaforo_contador/simulation/qsim//semaforo_contador.vo ;
-+------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------+
+; Simulation Generated Files                                       ;
++------------------------------------------------------------------+
+; Generated Files                                                  ;
++------------------------------------------------------------------+
+; C:/fpga/semaforo/semaforo/simulation/qsim//semaforo_contador.vho ;
++------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -95,13 +95,13 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Tue Apr 07 20:26:49 2020
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/emerson.monteiro/OneDrive/Faculdade/3º Semestre/sistemas digitais/semaforo_contador/simulation/qsim/" semaforo_contador -c semaforo_contador
+    Info: Processing started: Wed May 27 22:04:09 2020
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/fpga/semaforo/semaforo/simulation/qsim/ semaforo_contador -c semaforo_contador
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file semaforo_contador.vo in folder "C:/Users/emerson.monteiro/OneDrive/Faculdade/3º Semestre/sistemas digitais/semaforo_contador/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file semaforo_contador.vho in folder "C:/fpga/semaforo/semaforo/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4652 megabytes
-    Info: Processing ended: Tue Apr 07 20:26:50 2020
+    Info: Peak virtual memory: 4653 megabytes
+    Info: Processing ended: Wed May 27 22:04:10 2020
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

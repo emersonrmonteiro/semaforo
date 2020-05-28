@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
 
--- DATE "04/07/2020 20:07:29"
+-- DATE "05/27/2020 21:57:59"
 
 -- 
 -- Device: Altera EP4CE115F29C7 Package FBGA780
@@ -133,8 +133,8 @@ SIGNAL \inst3~1_combout\ : std_logic;
 SIGNAL \inst3~2_combout\ : std_logic;
 SIGNAL \inst2~combout\ : std_logic;
 SIGNAL \ALT_INV_inst2~combout\ : std_logic;
-SIGNAL \ALT_INV_inst16~q\ : std_logic;
 SIGNAL \ALT_INV_inst15~q\ : std_logic;
+SIGNAL \ALT_INV_inst16~q\ : std_logic;
 
 COMPONENT hard_block
     PORT (
@@ -156,8 +156,8 @@ ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
 \ALT_INV_inst2~combout\ <= NOT \inst2~combout\;
-\ALT_INV_inst16~q\ <= NOT \inst16~q\;
 \ALT_INV_inst15~q\ <= NOT \inst15~q\;
+\ALT_INV_inst16~q\ <= NOT \inst16~q\;
 auto_generated_inst : hard_block
 PORT MAP (
 	devoe => ww_devoe,

@@ -1,5 +1,5 @@
 Assembler report for semaforo_contador
-Tue Apr 07 20:07:22 2020
+Wed May 27 21:57:53 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/emerson.monteiro/OneDrive/Faculdade/3º Semestre/sistemas digitais/semaforo_contador/output_files/semaforo_contador.sof
+  5. Assembler Device Options: C:/fpga/semaforo/semaforo/output_files/semaforo_contador.sof
   6. Assembler Messages
 
 
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Apr 07 20:07:22 2020 ;
+; Assembler Status      ; Successful - Wed May 27 21:57:53 2020 ;
 ; Revision Name         ; semaforo_contador                     ;
 ; Top-level Entity Name ; semaforo_contador                     ;
 ; Family                ; Cyclone IV E                          ;
@@ -53,23 +53,23 @@ https://fpgasoftware.intel.com/eula.
 +--------+---------+---------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                                                       ;
-+---------------------------------------------------------------------------------------------------------------------------------+
-; File Name                                                                                                                       ;
-+---------------------------------------------------------------------------------------------------------------------------------+
-; C:/Users/emerson.monteiro/OneDrive/Faculdade/3º Semestre/sistemas digitais/semaforo_contador/output_files/semaforo_contador.sof ;
-+---------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------+
+; Assembler Generated Files                                    ;
++--------------------------------------------------------------+
+; File Name                                                    ;
++--------------------------------------------------------------+
+; C:/fpga/semaforo/semaforo/output_files/semaforo_contador.sof ;
++--------------------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/emerson.monteiro/OneDrive/Faculdade/3º Semestre/sistemas digitais/semaforo_contador/output_files/semaforo_contador.sof ;
-+----------------+------------------------------------------------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                                                                  ;
-+----------------+------------------------------------------------------------------------------------------------------------------------------------------+
-; JTAG usercode  ; 0x00563DCE                                                                                                                               ;
-; Checksum       ; 0x00563DCE                                                                                                                               ;
-+----------------+------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/fpga/semaforo/semaforo/output_files/semaforo_contador.sof ;
++----------------+-----------------------------------------------------------------------+
+; Option         ; Setting                                                               ;
++----------------+-----------------------------------------------------------------------+
+; JTAG usercode  ; 0x00563DCE                                                            ;
+; Checksum       ; 0x00563DCE                                                            ;
++----------------+-----------------------------------------------------------------------+
 
 
 +--------------------+
@@ -78,15 +78,15 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Tue Apr 07 20:07:17 2020
+    Info: Processing started: Wed May 27 21:57:48 2020
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off semaforo_contador -c semaforo_contador
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4697 megabytes
-    Info: Processing ended: Tue Apr 07 20:07:22 2020
+    Info: Peak virtual memory: 4698 megabytes
+    Info: Processing ended: Wed May 27 21:57:53 2020
     Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Total CPU time (on all processors): 00:00:04
 
 
